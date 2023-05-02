@@ -37,8 +37,8 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className="flex flex-col justify-center items-center">
-      <div className="relative w-full h-screen bg-cover bg-center bg-no-repeat">
+    <section className="relative flex flex-col justify-center items-center">
+      <div className="w-full h-screen bg-cover bg-center bg-no-repeat">
         {data.urls && (
           <img
             className="h-screen w-full object-cover -z-50"
@@ -53,7 +53,7 @@ const Banner = () => {
         </motion.h1>
         <SearchField/>
       </div>
-      <svg className="absolute bottom-0" viewBox="0 0 1440 320">
+      <svg className="absolute -bottom-2 md:bottom-0" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
           fillOpacity="1"
