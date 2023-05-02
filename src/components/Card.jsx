@@ -17,7 +17,7 @@ const Card = ({ card }) => {
         open={isOpenModal}
         footer={null}
         onCancel={() => setIsOpenModal(false)}
-        width={"50%"}
+        width={1000}
       >
         <CardModal card={card}/>
       </Modal>

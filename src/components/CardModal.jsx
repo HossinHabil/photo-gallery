@@ -2,12 +2,12 @@ import React from "react";
 
 const CardModal = ({ card }) => {
   return (
-    <section className="flex flex-col lg:flex-row justify-evenly gap-6 text-center">
+    <section className="flex flex-col lg:flex-row justify-evenly items-center gap-6 text-center">
       <div>
         <img
-          src={card.urls.small}
+          src={card.urls.regular}
           alt={card.alt_description}
-          className="h-full"
+          className="h-auto"
         />
       </div>
       <div>
